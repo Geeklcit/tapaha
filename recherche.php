@@ -101,7 +101,7 @@
 try{
 $requete=$con->query("SELECT * FROM cours WHERE titre LIKE '%$saisi_recherche%'");
 
-echo "recherche trouvé";
+
 }
 catch(PDOException $e)
     {

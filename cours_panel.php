@@ -26,7 +26,7 @@
         <a class="navbar-brand" href="#" style="margin-right: 100px;"> <span class="glyphicon glyphicon-ok" style="color: blue;" >Xeon</span></a>
       </div>
       <ul class="nav navbar-nav" class="nav">
-        <li class="active" class="li"><a href="#">Home</a></li>
+        <li class="active" class="li"><a href="index.php">Home</a></li>
         <li class="li" ><a href="#">service</a></li>
         <li class="li" ><a href="#">Portflio</a></li>
         <li class="li" ><a href="#">Phong</a></li>
@@ -53,7 +53,7 @@
                     <a href="ajout.php" class="btn btn-primary"><i class="material-icons">&#xE147;</i> <span>Ajouter un cours</span></a>
                 </div>
                 <div class="col-md-4">
-                      <form  class="navbar-form pull-right" methode="GET" action ="recherche.php">
+                      <form  class="navbar-form pull-right" methode="GET" action ="#">
                     <input type="text" class="input-sm form-control" placeholder="recherche" class="btn btn-default" name="recherche">
                     <button type="submit" class="btn btn-primary btn-sm" name="submit"><span class="glyphicon glyphicon-eye-open"></span> Chercher</button>
                 </form>
@@ -66,8 +66,6 @@
 
 
         </div>
-
-       
 
 <?php
 
@@ -170,26 +168,49 @@ $premiereEntree=($pageActuelle-1)*$coursParPage; // On calcul la premiÃ¨re entrÃ
 for($i=1; $i<=$nombreDePages; $i++) //On fait notre boucle
 {
      //On va faire notre condition
-    // if($i==$pageActuelle) //Si il s'agit de la page actuelle...
-     //{
-         //echo " [ $i ] "; 
-     //}	
-     //else //Sinon...
-     //{
+     if($i==$pageActuelle) //Si il s'agit de la page actuelle...
+     {
+        echo "
+        <nav aria-label='...'>
+ <ul class='pagination pagination-sm'>
+ 
+   <li class='page-item active'>
+   
+   <a href='cours_panel.php?page=$i' class='page-link'>$i</a>
+   </li>  
+   
+ </ul>
+</nav>
+";
+     }	
+     else //Sinon...
+     {
           //echo " <a href='cours_panel.php?page='.$i.''>'.$i.'</a> ";
 
          echo "
          <nav aria-label='...'>
   <ul class='pagination pagination-sm'>
   
-    <li class='page-item' class='active'><a href='cours_panel.php?page=$i' class='page-link'>$i</a></li>
+    <li class='page-item disabled'>
+    
+    <a href='cours_panel.php?page=$i' class='page-link'>$i</a>
+    </li>  
     
   </ul>
 </nav>
-          ";
-                 
+          "; }
+
+          /*
+           <li class="page-item active">
+      <span class="page-link">
+        2
+        <span class="sr-only">(current)</span>
+      </span>
+    </li>
+          
+          */
                            
-     //}
+
     }
 
 ?>
