@@ -1,0 +1,862 @@
+    1  gedit moodle
+    2  php --version
+    3  sudo -i
+    4  pwd
+    5  cd Vidéos/
+    6  nano talla
+    7  gedit talla
+    8  gzip srv
+    9  zip srv/
+   10  zip srv/srv.zip
+   11  zip srv
+   12  zip srv.zip srv/
+   13  sudo -i
+   14  shtdown now
+   15  shutdown now
+   16  sudo -i
+   17  sudo service network-manager restart
+   18  sudo service networking restart 
+   19  sudo -i
+   20  42/3
+   21  42:3
+   22  42+2
+   23  python
+   24  gedit
+   25  ifconfig 
+   26  ping 8.8.8.8
+   27  gedit bro
+   28  ping 8.8.8.8
+   29  cd /var/www/
+   30  cd html/
+   31  ls
+   32  mkdir talla
+   33  cd talla/
+   34  nano essai.php
+   35  ls
+   36  nano essai.php
+   37  sudo apt-get install httrackt
+   38  sudo apt-cache sera httrackt
+   39  sudo apt cache-search httrackt
+   40  sudo apt-cache search httrackt
+   41  sudo apt-cache search httr*
+   42  sudo apt-cache search httrac*
+   43  sudo apt-get install httrack
+   44  httrack 
+   45  ping 8.8.8.8
+   46  ps -aux
+   47  sudo -i
+   48  gedit assane 
+   49  gedit assane
+   50  sudo -i
+   51  gedit assane 
+   52  sudo -i
+   53  ping 8.8.8.8
+   54  ifconfig 
+   55  ping slack.com
+   56  ping 8.8.8.8
+   57  cal
+   58  ping xaragne-tech.com
+   59  sudo -i
+   60  sudo chmod 777 registration-form-desgin.zip 
+   61  unzip registration-form-desgin.zip 
+   62  sudo unzip registration-form-desgin.zip 
+   63  apt install unzip 
+   64  sudo apt install unzip 
+   65  sudo unzip registration-form-desgin.zip 
+   66  gedit mdp
+   67  ping 8.8.8.8
+   68  sudo -i
+   69  cat mdp 
+   70  sudo -i
+   71  gedit exo_python.py
+   72  python exo_python.py 
+   73  gedit exo_python.py
+   74  python exo_python.py 
+   75  gedit exo_python.py
+   76  python exo_python.py 
+   77  sudo -i
+   78  ls
+   79  gedit exo_python.py 
+   80  python exo_python.py 
+   81  gedit exo_python.py 
+   82  python exo_python.py 
+   83  ping 8.8.8.8
+   84  ifconfig 
+   85  ls
+   86  python_script.sh
+   87  python python_script.sh
+   88  cat -n python_script.sh 
+   89  python python_script.sh
+   90  python python_script.sh >>test21
+   91  cat test21 
+   92  sudo -i
+   93  python python_script.py 
+   94  ifconfig -l
+   95  ifconfig 
+   96  ifconfig --help
+   97  python exo_python.py 
+   98  python exo_python.py 
+   99  ls
+  100  cat exo_python.py 
+  101  ls
+  102  cd /home/talla/Documents/projet.py/
+  103  ls
+  104  rm talla.txt 
+  105  ls
+  106  ifconfig 
+  107  ifconfig -a
+  108  ifconfig -l
+  109  python sub.py 
+  110  gedit talla.py
+  111  cd
+  112  cd /home/talla/Documents/projet.py/
+  113  ls
+  114  gedit talla.py
+  115  exit
+  116  python sub.py 
+  117  cd /home/talla/Documents/projet.py/
+  118  python sub.py 
+  119  exit
+  120  python exo_python.py 
+  121  pcd Documents/
+  122  cd Documents/
+  123  python python_script.py 
+  124  mkdir projet.py
+  125  cd projet.py/
+  126  gedit exo_2.py
+  127  python exo_2.py 
+  128  gedit exo_2.py
+  129  python exo_2.py 
+  130  gedit exo_2.py
+  131  python exo_2.py 
+  132  ls
+  133  cd ..
+  134  ls
+  135  mv sub.py projet.py/
+  136  cd projet.py/
+  137  ls
+  138  python sub.py 
+  139  gedit sub.py 
+  140  python sub.py 
+  141  gedit sub.py 
+  142  python sub.py 
+  143  gedit sub.py 
+  144  python sub.py 
+  145  gedit sub.py 
+  146  python sub.py 
+  147  gedit sub.py 
+  148  python sub.py 
+  149  gedit sub.py 
+  150  python sub.py 
+  151  gedit sub.py 
+  152  python sub.py 
+  153  gedit sub.py 
+  154  python sub.py 
+  155  cd
+  156  pwd
+  157  cd Documents/
+  158  cd projet.py/
+  159  gedit kebe
+  160  cp kebe kebe.py
+  161  python kebe.py 
+  162  sudo apt-get install python-scapy 
+  163  sudo -i
+  164  ls
+  165  exit
+  166  ls
+  167  exit
+  168  python exo1.py 
+  169  ls
+  170  gedit exo1.py 
+  171  python exo1.py 
+  172  cd
+  173  gedit exo1.py 
+  174  python exo1.py
+  175  exit
+  176  python exo_python.py 
+  177  nano exo_python.py 
+  178  python exo_python.py 
+  179  ls
+  180  cta exo_python.py 
+  181  cat exo_python.py 
+  182  exit
+  183  cat exo_python.py 
+  184  gedi exo_python.py 
+  185  gedit exo_python.py 
+  186  cd
+  187  exit
+  188  sudo -i
+  189  cd Documents/
+  190  cd projet.py/
+  191  gedit scapy.py
+  192  ifconfig 
+  193  ls
+  194  python scapy.py 
+  195  python3 scapy.py 
+  196  gedit scapy.py
+  197  python3 scapy.py 
+  198  gedit scapy.py
+  199  python3 scapy.py 
+  200  gedit scapy.py
+  201  ls
+  202  cat sub.py 
+  203  ls
+  204  cat exo_2.py 
+  205  ls
+  206  cat sub.py 
+  207  gedit sub.py 
+  208  python3 sub.py 
+  209  gedit sub.py 
+  210  python3 sub.py 
+  211  gedit sub.py 
+  212  python3 sub.py 
+  213  gedit sub.py 
+  214  python3 sub.py 
+  215  gedit sub.py 
+  216  python3 sub.py 
+  217  gedit sub.py 
+  218  python3 sub.p
+  219  gedit sub.py 
+  220  python3 sub.py 
+  221  gedit sub.py 
+  222  python3 sub.py 
+  223  gedit sub.py 
+  224  python3 sub.py 
+  225  gedit saliw.py
+  226  python saliw.py
+  227  gedit saliw.py
+  228  python saliw.py
+  229  gedit saliw.py
+  230  python saliw.py
+  231  gedit scapy.py 
+  232  python scapy.py 
+  233  gedit scapy.py 
+  234  python scapy.py 
+  235  gedit scapy.py 
+  236  python scapy.py 
+  237  gedit scapy.py 
+  238  python scapy.py 
+  239  cat -n scapy.py 
+  240  gedit scapy.py 
+  241  gedit sub.py 
+  242  python sub.py 
+  243  gedit sub.py 
+  244  python sub.py 
+  245  gedit sub.py 
+  246  python sub.py 
+  247  gedit sub.py 
+  248  python sub.py 
+  249  gedit sub.py 
+  250  python sub.py 
+  251  gedit sub.py 
+  252  python sub.py 
+  253  gedit sub.py 
+  254  python sub.py 
+  255  gedit sub.py 
+  256  python sub.py 
+  257  gedit sub.py 
+  258  python sub.py 
+  259  gedit sub.py 
+  260  python sub.py 
+  261  gedit sub.py 
+  262  python sub.py 
+  263  uname -a
+  264  uname -r
+  265  uname -ar
+  266  uname -r
+  267  uname -a
+  268  who
+  269  whoiam
+  270  who
+  271  wiam
+  272  whoami
+  273  ls
+  274  cp sub.py exo1;py
+  275  cp sub.py exo1.py
+  276  gedit exo1.py 
+  277  python kebe.py 
+  278  ifconfig | grep -v inet
+  279  ifconfig | grep  ^inet
+  280  ifconfig | grep  *ine
+  281  ifconfig | grep  -v add
+  282  ifconfig | grep  -v adr
+  283  ifconfig | cat -n
+  284  ifconfig | grep inet
+  285  ifconfig | grep HWaddr inet
+  286  ifconfig | grep HWaddr 
+  287  ifconfig | grep (HWaddr,inet) 
+  288  ifconfig | grep (HWaddrinet) 
+  289  ifconfig | grep ('HWaddr,inet') 
+  290  ifconfig | grep [HWaddr-inet] 
+  291  ifconfig | grep [HWaddr,inet] 
+  292  ifconfig | grep HWaddr 
+  293  python kebe.py 
+  294  ifconfig 
+  295  gedit sub.py 
+  296  python sub.py 
+  297  gedit sub.py 
+  298  python sub.py 
+  299  gedit sub.py 
+  300  python sub.py 
+  301  gedit sub.py 
+  302  python sub.py 
+  303  gedit sub.py 
+  304  python sub.py 
+  305  gedit sub.py 
+  306  python sub.py 
+  307  gedit sub.py 
+  308  python sub.py 
+  309  gedit sub.py 
+  310  python sub.py 
+  311  gedit sub.py 
+  312  python sub.py 
+  313  kebe.py
+  314  python kebe.py 
+  315  ifconfig | grep HWaddr
+  316  python kebe.py 
+  317  gedit sub.py 
+  318  python kebe.py 
+  319  gedit sub.py 
+  320  python sub.py 
+  321  ip addr
+  322  hostname -i
+  323  ls
+  324  gedit exo_2.py 
+  325  python exo_2.py 
+  326  gedit exo_2.py 
+  327  ls
+  328  gedit exo1
+  329  ls
+  330  cat kebe
+  331  ls
+  332  cat sub.py 
+  333  ls
+  334  gedit python_script.py 
+  335  ls
+  336  gedit exo_2.py 
+  337  ls
+  338  cat exo1.py 
+  339  gedit exo1.py 
+  340  python exo1.py 
+  341  gedit exo1.py 
+  342  python exo1.py 
+  343  gedit exo1.py 
+  344  python exo1.py 
+  345  ls
+  346  cd ..
+  347  cd
+  348  lq
+  349  ls
+  350  gedit exo_python.py 
+  351  python exo_python.py 
+  352  gedit exo_python.py 
+  353  python exo_python.py 
+  354  ls
+  355  gedit exo_python.py 
+  356  python exo_python.py 
+  357  gedit exo_python.py 
+  358  python exo_python.py 
+  359  gedit exo_python.py 
+  360  python exo_python.py 
+  361  gedit exo_python.py 
+  362  python exo_python.py 
+  363  ifconfig 
+  364  ifconfig -a
+  365  sudo -i
+  366  python kebe.py 
+  367  cd Documents/
+  368  cd projet.py/
+  369  python exo1.py 
+  370  ls
+  371  cat fsociety.dat 
+  372  cd /home/talla/
+  373  ls
+  374  cat fsociety.dat 
+  375  exi
+  376  exit
+  377  ssh kebe@127.0.0.1
+  378  sudo adduser moussa
+  379  cat /etc/passwd
+  380  cat /etc/passwd | grep root
+  381  usermod moussa ?
+  382  usermod moussa -G 0
+  383  sudo usermod moussa -G 0
+  384  ssh moussa@127.0.0.1
+  385  cd Documents/
+  386  cd projet.py/
+  387  ls
+  388  cat exo1.py 
+  389  ls
+  390  gedit exo1.py 
+  391  python exo1.py 
+  392  ssh --help
+  393  gedit exo1.py 
+  394  ls
+  395  cat sub.py 
+  396  ls
+  397  cat python_script.py 
+  398  clear
+  399  ls
+  400  cat kebe
+  401  cat sub.py 
+  402  cat exo_2.py 
+  403  cls
+  404  ls
+  405  cat exo1
+  406  ifconfig | find ad
+  407  ifconfig | grep ad
+  408  ifconfig | grep inet
+  409  ifconfig | grep ad
+  410  ls
+  411  cat exo_2.py 
+  412  ls
+  413  cat exo1.py 
+  414  cat exo2
+  415  gedit exo_2.py 
+  416  gedit exo1.py 
+  417  gedit script_exo1.Py
+  418  cp exo1.py script_exo1.Py 
+  419  gedit script_exo1.Py 
+  420  python script_exo1.py
+  421  ls
+  422  mv script_exo1.Py script1.py
+  423  python script1.py 
+  424  gedi script1.py 
+  425  gedit script1.py 
+  426  python script1.py 
+  427  ls
+  428  cd /home/moussa/
+  429  ls
+  430  cat fsociety.dat 
+  431  exit
+  432  cd Documents/
+  433  cd projet.py/
+  434  gedit exo_2.py 
+  435  ls
+  436  cat kebe.py 
+  437  ls
+  438  cat sub.py 
+  439  cat sub.py script2.py 
+  440  cp sub.py script2.py 
+  441  gedit script2.py 
+  442  python script2.py 
+  443  ifconfig |grep addr
+  444  ifconfig |grep adr
+  445  ifconfig | grep add
+  446  ifconfig | grep adr
+  447  ifconfig | grep ad
+  448  gedit script2.py 
+  449  python script2.py 
+  450  gedit script2.py 
+  451  python script2.py 
+  452  ifconfig | grep adr
+  453  gedit script2.py 
+  454  python kebe.py 
+  455  gedit script2.py 
+  456  python script2.py 
+  457  gedit script2.py 
+  458  python script2.py 
+  459  ls
+  460  gedit test_2.py
+  461  python test_2.py 
+  462  gedit test_2.py
+  463  python test_2.py 
+  464  gedit test_2.py
+  465  python test_2.py 
+  466  gedit test_2.py
+  467  python test_2.py 
+  468  gedit test_2.py
+  469  python test_2.py 
+  470  gedit test_2.py
+  471  python test_2.py 
+  472  gedit test_2.py
+  473  python test_2.py 
+  474  gedit test_2.py
+  475  python test_2.py 
+  476  gedit test_2.py
+  477  python test_2.py 
+  478  gedit test_2.py
+  479  gedit script2.py 
+  480  python script2.py 
+  481  gedit script2.py 
+  482  python script2.py 
+  483  gedit script2.py 
+  484  python script2.py 
+  485  gedit script2.py 
+  486  python script2.py 
+  487  gedit script2.py 
+  488  python script2.py 
+  489  gedit script2.py 
+  490  python script2.py 
+  491  gedit script2.py 
+  492  python script2.py 
+  493  gedit script2.py 
+  494  python script2.py 
+  495  gedit script2.py 
+  496  python script2.py 
+  497  gedit script2.py 
+  498  python script2.py 
+  499  gedit script2.py 
+  500  python script2.py 
+  501  gedit script2.py 
+  502  ls
+  503  gedit test_2.py 
+  504  python test_2.py 
+  505  gedit test_2.py 
+  506  python test_2.py 
+  507  gedit test_2.py 
+  508  python test_2.py 
+  509  gedit test_2.py 
+  510  python test_2.py 
+  511  gedit test_2.py 
+  512  python test_2.py 
+  513  gedit test_2.py 
+  514  python test_2.py 
+  515  gedit test_2.py 
+  516  python test_2.py 
+  517  gedit test_2.py 
+  518  python test_2.py 
+  519  gedit test_2.py 
+  520  gedit script2.py 
+  521  gedit minuit.py
+  522  python minuit.py 
+  523  ssh moussa@127.0.0.1
+  524  python minuit.py 
+  525  gedit minuit.py 
+  526  ssh moussa@127.0.0.1
+  527  python minuit.py 
+  528  gedit minuit.py 
+  529  python minuit.py 
+  530  passer
+  531  python minuit.py 
+  532  ls
+  533  gedit script2.py 
+  534  python script2.py 
+  535  gedit script2.py 
+  536  python script2.py 
+  537  gedit script2.py 
+  538  python script2.py 
+  539  gedit script2.py 
+  540  python script2.py 
+  541  gedit script2.py 
+  542  python script2.py 
+  543  gedit script2.py 
+  544  python script2.py 
+  545  gedit script2.py 
+  546  python script2.py 
+  547  gedit script2.py 
+  548  python script2.py 
+  549  gedit script2.py 
+  550  python script2.py 
+  551  python3 script2.py 
+  552  python3 minuit.py 
+  553  python script2.py ls
+  554  ls
+  555  pwd
+  556  cdcd
+  557  ifconfig | grep ad | grep -v inet6
+  558  ifconfig | grep add
+  559  ifconfig | grep ad | grep -v inet6
+  560  ifconfig | grep adr | grep -v inet6
+  561  grep inet
+  562  ifconfig | grep inet
+  563  ifconfig | grep inet | grep -v inet6
+  564  ifconfig | grep inet | grep -v inet6 | grep -v Mas
+  565  ifconfig | grep inet | grep -v inet6
+  566  ifconfig | grep inet | grep -v inet6 | awk '{print $2}' | sed 's/addr://i
+  567  "
+  568  ;
+  569  ifconfig | grep inet | grep -v inet6 | grep adr
+  570  ifconfig | grep add
+  571  ifconfig | grep adr
+  572  ifconfig | grep adr | grp inet
+  573  ifconfig | grep adr | grep inet
+  574  ifconfig | grep adr: | grep inet
+  575  ifconfig 
+  576  route
+  577  net-tools
+  578  ifconfig 
+  579  ifconfig | grep adr: | grep inet
+  580  ifconfig -n
+  581  ifconfig --help
+  582  ifconfig add
+  583  ifconfig hw
+  584  ifconfig hw enp0s25
+  585  ifconfig add
+  586  ifconfig --help
+  587  ifconfig 
+  588  ifconfig | grep adr:1
+  589  ifconfig | grep adr
+  590  ifconfig | grep adr:1
+  591  ifconfig | grep add
+  592  ifconfig | grep ad
+  593  ifconfig | grep ad -v inet6
+  594  ifconfig | grep ad |grep -v inet6
+  595  cd Documents/
+  596  cd projet.py/
+  597  gedit script2.py 
+  598  python script2.py 
+  599  gedit script2.py 
+  600  python script2.py 
+  601  gedit script2.py 
+  602  python script2.py 
+  603  gedit script2.py 
+  604  python script2.py 
+  605  gedit script2.py 
+  606  python script2.py 
+  607  gedit script2.py 
+  608  python script2.py 
+  609  gedit script2.py 
+  610  python script2.py 
+  611  gedit script2.py 
+  612  python script2.py 
+  613  gedit script2.py 
+  614  python script2.py 
+  615  gedit script2.py 
+  616  python script2.py 
+  617  gedit script2.py 
+  618  python script2.py 
+  619  gedit script2.py 
+  620  python script2.py 
+  621  gedit script2.py 
+  622  python script2.py 
+  623  gedit script2.py 
+  624  python script2.py 
+  625  gedit script2.py 
+  626  python script2.py 
+  627  gedit script2.py 
+  628  python script2.py 
+  629  gedit script2.py 
+  630  python script2.py 
+  631  python script1
+  632  python script1.py 
+  633  ls
+  634  cat script1.py 
+  635  cat script2.py 
+  636  mkdir python
+  637  cp script*.py python 
+  638  cd python/
+  639  ls
+  640  cd ..
+  641  gedit test.py
+  642  python test.py
+  643  python test.py
+  644  gedit test.py
+  645  ls
+  646  cat saliw.py 
+  647  ls
+  648  cat sub.py 
+  649  i
+  650  ping 8.8.8.8
+  651  cd
+  652  sudo -
+  653  sudo -i
+  654  python3 script3.py 
+  655  gedit script3.py 
+  656  python3 script3.py 
+  657  gedit script3.py 
+  658  python3 script3.py 
+  659  python35 script3.py 
+  660  gedit script3.py 
+  661  python script3.py 
+  662  python3 script3.py 
+  663  gedit script3.py 
+  664  python3 script3.py 
+  665  python script3.py 
+  666  gedit script3.py 
+  667  python script3.py 
+  668  python3 script3.py 
+  669  gedit script3.py 
+  670  python3 script3.py 
+  671  init 6
+  672  python scapy.py 
+  673  cat -n scapy.py 
+  674  python scapy.py
+  675  python3 scapy.py
+  676  ping 8.8.8.8
+  677  ping gmail.com
+  678  ping 8.8.8.8
+  679  nano /etc/resolv.conf 
+  680  sudo nano /etc/resolv.conf 
+  681  ping gmail.com
+  682  gedit script3.py
+  683  python script3.py 
+  684  gedit script3.py
+  685  python script3.py 
+  686  gedit script3.py
+  687  python script3.py 
+  688  sudo apt install python3-pip
+  689  sudo apt-get install tcpdump graphviz imagemagick python-gnuplot cryptography
+  690  python-cryptography python-pyx
+  691  sudo apt-get install tcpdump graphviz imagemagick python-gnuplot
+  692  sudo apt-get install cryptography
+  693  python-cryptography python-pyx
+  694  sudo apt-get install python-cryptography python-pyx
+  695  scapy
+  696  python script3.py 
+  697  gedit script3.py
+  698  python script3.py 
+  699  gedit script3.py
+  700  python script3.py 
+  701  gedit test_scapy
+  702  ls
+  703  mv test_scapy test_scapy.py
+  704  ls
+  705  python test_scapy.py 
+  706  python3 test_scapy.py 
+  707  gedit test_scapy.py 
+  708  python3 test_scapy.py 
+  709  gedit test_scapy.py 
+  710  python test_scapy.py 
+  711  python3 test_scapy.py 
+  712  python script3.py 
+  713  python3 test_scapy.py 
+  714  python script3.py 
+  715  python3 script3.py 
+  716  gedit test_scapy.py 
+  717  python3 script3.py 
+  718  python test_scapy.py 
+  719  gedit test_scapy.py 
+  720  sudo python test_scapy.py 
+  721  sudo python3 test_scapy.py 
+  722  gedit test_scapy.py 
+  723  sudo python test_scapy.py 
+  724  cd /usr/local/lib/python2.7/site-packages/
+  725  ls
+  726  cd ...
+  727  cd ..
+  728  cd
+  729  pip3 install scapy
+  730  cd /usr/local/lib/python2.7/site-packages/
+  731  ls
+  732  cd
+  733  sudo pip3 install scapy
+  734  sudo pip3 --upgrade scapy
+  735  sudo pip3 install --upgrade scapy
+  736  sudo pip install --upgrade scapy
+  737  apt-get install pip
+  738  sudo apt-get install pip
+  739  apt-get install python-pip
+  740  sudo apt-get install python-pip
+  741  pip install --upgrade pip 
+  742  cd Documents/
+  743  ls
+  744  cd projet.py/
+  745  ls
+  746  python script3.py 
+  747  python test_scapy.py 
+  748  cd /home/talla/.local/lib/python2.7/site-packages
+  749  ls
+  750  cd ..
+  751  cp ..
+  752  cp /home/talla/.local/lib/python2.7/site-packages /usr/local/lib/python2.7/
+  753  cp -r /home/talla/.local/lib/python2.7/site-packages /usr/local/lib/python2.7/
+  754  sudo cp -r /home/talla/.local/lib/python2.7/site-packages /usr/local/lib/python2.7/
+  755  ls
+  756  cd /usr/local/lib/python2.7/
+  757  ls
+  758  cd site-packages/
+  759  ls
+  760  cd ..
+  761  cd /home/talla/Documents/projet.py/
+  762  ls
+  763  python script3.py 
+  764  gzip saliw.py 
+  765  zip python_projet_grp/
+  766  zip -c python_projet_grp/
+  767  cd python_projet_grp/
+  768  zip python_projet_grp.zip script1.py script2.py script3.py 
+  769  ls
+  770  zip python_projet_grp.zip script1.py script2.py script3.py membre
+  771  zip python_projet_grp.zip script1.py script2.py script3.py membre.txt
+  772  cd 
+  773  sudo -i
+  774  sudo nano /etc/resolv.conf
+  775  ping webmail/lcit-mortalla.info
+  776  ping webmail.lcit-mortalla.info
+  777  ping 8.8.8.8
+  778  sudo -i
+  779  cd Documents/
+  780  ls
+  781  cd projet.p
+  782  python script3.py 
+  783  python3 script3.py 
+  784  gedit script3.py 
+  785  ping 8.8.8.8
+  786  dhclient
+  787  sudo dhclient
+  788  ls
+  789  ifconfig 
+  790  dhclient wlp3s0
+  791  sudo dhclient wlp3s0
+  792  ifconfig 
+  793  ifdown wlp3s0 
+  794  ifconfig 
+  795  ifconfig wlp3s0 192.168.43.10
+  796  sudo ifconfig wlp3s0 192.168.43.10
+  797  ifconfig ²
+  798  ifconfig 
+  799  ping 192.168.43.23
+  800  ping 10.0.2.15
+  801  gedit linux
+  802  sudo -i
+  803  ping ovh.sn
+  804  sudo -i
+  805  cat /etc/resolv.conf
+  806  ping https://webdevacademy.com.br/tutoriais/crud-bootstrap-php-mysql-parte1/
+  807  ping https://webdevacademy.com.br
+  808  ping webdevacademy.com.br
+  809  ping 8.8.8.8
+  810  service networking restart 
+  811  ifconfig 
+  812  dhclient
+  813  sudo dhclient
+  814  ifconfig 
+  815  gedit cours
+  816  sudo init 6
+  817  ping 8.8.8.8
+  818  dhclient
+  819  sudo dhclient
+  820  sudo -i
+  821  zip -c projet 
+  822  zip -c projet *
+  823  git
+  824  git init 
+  825  git add .
+  826  git commit -m "first_comit"
+  827  git remote add origin https://github.com/Geeklcit/tapaha.git
+  828  git push -u origin master
+  829  init 0
+  830  sudo -i
+  831  sudo chmod 777 *
+  832  ls
+  833  cd twentyfifteen/
+  834  sudo chmod 777 *
+  835  cd ..
+  836  cd twentyseventeen/
+  837  sudo chmod 777 *
+  838  ls
+  839  cd ..
+  840  ls
+  841  sudo chmod 777 *
+  842  cd ..
+  843  ls
+  844  sudo chmod 777 -rf wordpress/
+  845  sudo chmod 777 -r wordpress/
+  846  ping 8.8.8.8
+  847  sudo chmod 777 *
+  848  ifconfig -a
+  849  ifconfig wlp3s0 192.168.1.65
+  850  sudo ifconfig wlp3s0 192.168.1.65
+  851  ifconfig 
+  852  nano /etc/resolv.conf 
+  853  sudo nano /etc/resolv.conf 
+  854  ping webmail.lcit-mortalla.info
+  855  sudo -i
+  856  git add .
+  857  git commit -m "fonctionalité recherche"
+  858  git push
+  859  git log 
+  860  history 
+  861  history -f >>cours_github.txt
+  862  history  >>cours_github

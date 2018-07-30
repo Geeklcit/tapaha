@@ -52,9 +52,9 @@
                     <a href="ajout.php" class="btn btn-primary"><i class="material-icons">&#xE147;</i> <span>Ajouter un cours</span></a>
                 </div>
                 <div class="col-md-4">
-                    <form methode="post" action ="#">
-                        <input type="text" class="input-sm form-control" placeholder="recherche" name="search">
-                        <button type="submit" > Chercher</button>
+                    <form  class="navbar-form pull-right" methode="GET" action ="recherche.php">
+                        <input type="text" class="input-sm form-control" placeholder="recherche" class="btn btn-default" name="recherche">
+                        <button type="submit" class="btn btn-primary btn-sm" name="submit" value="submit"><span class="glyphicon glyphicon-eye-open"></span> Chercher</button>
                         
                     </form>
                      
@@ -81,15 +81,14 @@
                 </thead>
                 <tbody>    
 <?php
- echo "talla";
+
 
     include("connexion.php");
 
     $requete = "select * from cours";
    
     
-     $saisi_recherche = $_POST['search'];
-     var_dump($saisi_recherche);
+     $saisi_recherche = $_GET['recherche'];
 
      $titre = $_POST['titre'];
      $debut = $_POST['debut'];

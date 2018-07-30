@@ -1,0 +1,20 @@
+  853  sudo nano /etc/resolv.conf 
+  854  ping webmail.lcit-mortalla.info
+  855  sudo -i
+  856  git add .
+  857  git commit -m "fonctionalité recherche"
+  858  git push
+  859  git log 
+  860  history 
+  861  history -f >>cours_github.txt
+  862  history  >>cours_github
+  853  sudo nano /etc/resolv.conf 
+  854  ping webmail.lcit-mortalla.info
+  855  sudo -i
+  856  git add .
+  857  git commit -m "fonctionalité recherche"
+  858  git push
+  859  git log 
+  860  history 
+  861  history -f >>cours_github.txt
+  862  history  >>cours_github

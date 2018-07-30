@@ -53,7 +53,7 @@
                     <a href="ajout.php" class="btn btn-primary"><i class="material-icons">&#xE147;</i> <span>Ajouter un cours</span></a>
                 </div>
                 <div class="col-md-4">
-                      <form  class="navbar-form pull-right" methode="post" action ="recherche.php">
+                      <form  class="navbar-form pull-right" methode="GET" action ="recherche.php">
                     <input type="text" class="input-sm form-control" placeholder="recherche" class="btn btn-default" name="recherche">
                     <button type="submit" class="btn btn-primary btn-sm" name="submit"><span class="glyphicon glyphicon-eye-open"></span> Chercher</button>
                 </form>
