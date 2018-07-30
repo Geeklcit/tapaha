@@ -53,8 +53,10 @@
                     <a href="ajout.php" class="btn btn-primary"><i class="material-icons">&#xE147;</i> <span>Ajouter un cours</span></a>
                 </div>
                 <div class="col-md-4">
-                      
-                    <input type="text" class="input-sm form-control"placeholder="Recherche" class="btn btn-default">
+                      <form  class="navbar-form pull-right" methode="post" action ="recherche.php">
+                    <input type="text" class="input-sm form-control" placeholder="recherche" class="btn btn-default" name="recherche">
+                    <button type="submit" class="btn btn-primary btn-sm" name="submit"><span class="glyphicon glyphicon-eye-open"></span> Chercher</button>
+                </form>
                      
                     </input>                        
                 </div>
@@ -162,35 +164,33 @@ $premiereEntree=($pageActuelle-1)*$coursParPage; // On calcul la premi√®re entr√
 
 
 
+
 <?php
 
 for($i=1; $i<=$nombreDePages; $i++) //On fait notre boucle
 {
      //On va faire notre condition
-     if($i==$pageActuelle) //Si il s'agit de la page actuelle...
-     {
-         echo " [ $i ] "; 
-     }	
-     else //Sinon...
-     {
+    // if($i==$pageActuelle) //Si il s'agit de la page actuelle...
+     //{
+         //echo " [ $i ] "; 
+     //}	
+     //else //Sinon...
+     //{
           //echo " <a href='cours_panel.php?page='.$i.''>'.$i.'</a> ";
 
-         echo "<div class='clearfix'>
-                    <div class='hint-text'></div>
-                    <ul class='pagination'>
-                     
-                        <li class='page-item'><a href='cours_panel.php?page=$i' class='page-link'>$i</a></li>
-                        
-                 </ul>";
-             
-     }
+         echo "
+         <nav aria-label='...'>
+  <ul class='pagination pagination-sm'>
+  
+    <li class='page-item' class='active'><a href='cours_panel.php?page=$i' class='page-link'>$i</a></li>
+    
+  </ul>
+</nav>
+          ";
+                 
+                           
+     //}
     }
- 
- 
-
-
-
-
 
 ?>
 

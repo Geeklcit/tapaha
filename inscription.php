@@ -78,7 +78,7 @@ if(isset($_POST['submit'])){
 					<form class="form-horizontal" method="post" action="inscription.php">
 						
 						<div class="form-group">
-							<label for="prenom" class="cols-sm-2 control-label">Prenom</label>
+							<label for="prenom" class="cols-sm-4 control-label">Prenom</label>
 							<div class="cols-sm-10">
 								<div class="input-group">
 									<span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
@@ -88,7 +88,7 @@ if(isset($_POST['submit'])){
 						</div>
 
 						<div class="form-group">
-							<label for="email" class="cols-sm-2 control-label">votre Email</label>
+							<label for="email" class="cols-sm-4 control-label">votre Email</label>
 							<div class="cols-sm-10">
 								<div class="input-group">
 									<span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
@@ -98,7 +98,7 @@ if(isset($_POST['submit'])){
 						</div>
 
 						<div class="form-group">
-							<label for="password" class="cols-sm-2 control-label">Password</label>
+							<label for="password" class="cols-sm-4 control-label">Password</label>
 							<div class="cols-sm-10">
 								<div class="input-group">
 									<span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
@@ -108,7 +108,7 @@ if(isset($_POST['submit'])){
 						</div>
 
 						<div class="form-group">
-							<label for="confirm" class="cols-sm-2 control-label">Confirm Password</label>
+							<label for="confirm" class="cols-sm-4 control-label">Confirm Password</label>
 							<div class="cols-sm-10">
 								<div class="input-group">
 									<span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
