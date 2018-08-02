@@ -7,12 +7,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <script src="main.js"></script>
+<?php 
+
+/*
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round">
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+*/
+
+
+?>
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<script src="js/bootstrap.min.js"></script>
+<script src="jquery-1.7.1.min.js"></script>
+
 
 
 </head>
@@ -67,7 +79,75 @@
 
         </div>
 
-<?php
+
+
+
+  <table class="table table-striped table-hover">
+                <thead>
+                    <tr>
+                        <th>id</th>	
+                        <th>photo</th>	
+                        <th>titre du cours</th>						
+						<th>Date de debut du cours </th>
+                        <th>Date de fin du cours </th>
+						<th>Description du cours</th>
+                        <th>Action</th>
+                        <th>publication</th>
+                    </tr>
+                    
+
+
+                </thead>
+                <tbody> 
+
+                 <?php /*
+
+
+    include("connexion.php");
+
+    $requete = "select * from cours";
+   
+    
+     $saisi_recherche = $_GET['recherche'];
+
+     $titre = $_POST['titre'];
+     $debut = $_POST['debut'];
+     $fin = $_POST['fin'];
+     $description = $_POST['description'];
+  
+//$requete = "select * from cours where titre LIKE '%$saisi_recherche%'";
+
+
+try{
+$requete=$con->query("SELECT * FROM cours WHERE titre LIKE '%$saisi_recherche%'");
+
+
+}
+catch(PDOException $e)
+    {
+    echo "blem de selection " . $e->getMessage();
+    }
+
+       // On affiche le resultat
+       while ($donnes = $requete->fetch())
+       {
+
+           //On affiche les données dans le tableau
+           echo "</tr>";
+           echo "<td> $donnes[id] </td> ";
+           echo "<td> $donnes[titre] </td> ";
+           echo "<td> $donnes[debut] </td>";
+           echo "<td> $donnes[fin]</td>";
+           echo "<td> $donnes[description] </td>";
+           echo "<td> <a href='edit.php?id=$donnes[id]' class='settings' title='modifier'><i class='material-icons'>&#xE8B8;</i></a>
+           <a href='delete.php?id=$donnes[id]' classe='delete' title='Supprimer' ><span class='glyphicon glyphicon-trash'></span></a> </td>";
+           echo "</tr>";
+       }
+       $donnes->closeCursor();
+*/ 
+                ?>  
+
+               <?php
 
 //Connexion à la base de données
 
@@ -106,24 +186,7 @@ else // Sinon
 $premiereEntree=($pageActuelle-1)*$coursParPage; // On calcul la première entrée à lire
 
 
-?>
-
-
-
-
-  <table class="table table-striped table-hover">
-                <thead>
-                    <tr>
-                        <th>id</th>	
-                        <th>titre du cours</th>						
-						<th>Date de debut du cours </th>
-                        <th>Date de fin du cours </th>
-						<th>Description du cours</th>
-                        <th>Action</th>
-                    </tr>
-                    
-                </thead>
-                <tbody>    
+?>  
 
                 <?php
                        
@@ -144,13 +207,16 @@ $premiereEntree=($pageActuelle-1)*$coursParPage; // On calcul la première entr�
                     //On affiche les données dans le tableau
                     echo "</tr>";
                     echo "<td> $donnees[id] </td> ";
+                    echo "<td><img src ='./image/$donnees[photo]'/></td> ";
                     echo "<td> $donnees[titre] </td> ";
                     echo "<td> $donnees[debut] </td>";
                     echo "<td> $donnees[fin]</td>";
                     echo "<td> $donnees[description] </td>";
                     echo "<td> <a href='edit.php?id=$donnees[id]' class='settings' title='modifier'><i class='material-icons'>&#xE8B8;</i></a>
                     <a href='delete.php?id=$donnees[id]' classe='delete' title='Supprimer' ><span class='glyphicon glyphicon-trash'></span></a> </td>";
+                    echo "<td> <a href='publier.php?id=$donnees[id]' class='settings' title='publier'>publier<i class='material-icons'>&#xE8B8;</i></a></td>";
                     echo "</tr>";
+                   
                 }
                 $mor->closeCursor();
                  
@@ -165,7 +231,7 @@ $premiereEntree=($pageActuelle-1)*$coursParPage; // On calcul la première entr�
 
 <?php
 
-for($i=1; $i<=$nombreDePages; $i++) //On fait notre boucle
+for($i=$nombreDePages; $i>=1; $i--) //On fait notre boucle
 {
      //On va faire notre condition
      if($i==$pageActuelle) //Si il s'agit de la page actuelle...
@@ -191,7 +257,7 @@ for($i=1; $i<=$nombreDePages; $i++) //On fait notre boucle
          <nav aria-label='...'>
   <ul class='pagination pagination-sm'>
   
-    <li class='page-item disabled'>
+    <li class='page-item '>
     
     <a href='cours_panel.php?page=$i' class='page-link'>$i</a>
     </li>  
