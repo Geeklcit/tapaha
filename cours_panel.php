@@ -207,14 +207,15 @@ $premiereEntree=($pageActuelle-1)*$coursParPage; // On calcul la première entr�
                     //On affiche les données dans le tableau
                     echo "</tr>";
                     echo "<td> $donnees[id] </td> ";
-                    echo "<td><img src ='./image/$donnees[photo]'/></td> ";
+                    echo "<td><img src ='./image/$donnees[photo]' height=20/></td> ";
                     echo "<td> $donnees[titre] </td> ";
                     echo "<td> $donnees[debut] </td>";
                     echo "<td> $donnees[fin]</td>";
                     echo "<td> $donnees[description] </td>";
                     echo "<td> <a href='edit.php?id=$donnees[id]' class='settings' title='modifier'><i class='material-icons'>&#xE8B8;</i></a>
                     <a href='delete.php?id=$donnees[id]' classe='delete' title='Supprimer' ><span class='glyphicon glyphicon-trash'></span></a> </td>";
-                    echo "<td> <a href='publier.php?id=$donnees[id]' class='settings' title='publier'>publier<i class='material-icons'>&#xE8B8;</i></a></td>";
+                    echo "<td> <a href='publier.php?id=$donnees[id]' title='publier'>publier</a></td>";
+                    echo "<td> <a href='depublier.php?id=$donnees[id]' title='depublier'>depublier</a></td>";
                     echo "</tr>";
                    
                 }

@@ -5,19 +5,22 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<?php 
-/*
+
+
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-*/
-?>
 
-<link rel="stylesheet" href="css/bootstrap.min.css">
-<script src="js/bootstrap.min.js"></script>
-<script src="jquery-1.7.1.min.js"></script>
+
+
+<!--link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="styles.css"/>
+<script src="jquery-3.3.1.js"></script>
+<script src="js/bootstrap.min.js"></script!-->
+
   <link rel="stylesheet" type="text/css" href="index.css" />
 </head>
 <body>
@@ -35,7 +38,78 @@
         <li class="li" ><a href="#">Phong</a></li>
         <li class="li" ><a href="#">About Us</a></li>
         <li class="li" ><a href="#">Contact</a></li>
-        <li class="li" ><a href="login.php">login</a>
+        <li class="li" >
+
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#login">
+  Login
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Login</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      <div >
+			<div class="row main">
+				<div class="main-login main-center">
+				<h5>S'authentifier </h5>
+					<form class="" method="post" action="login.php">
+						
+							<div class="form-group">
+							<label for="email" class="cols-sm-2 control-label"> Email</label>
+							<div class="cols-sm-10">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
+									<input type="email" class="form-control" name="email" id="email"  placeholder="Entrer votre mail"/>
+								</div>
+							</div>
+                        </div>
+                        
+
+						<div class="form-group">
+							<label for="password" class="cols-sm-2 control-label">Password</label>
+							<div class="cols-sm-10">
+								<div class="input-group">
+									<span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
+									<input type="password" class="form-control" name="password" id="password"  placeholder="Entrer votre mot de pass"/>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="form-group ">
+							<button type="submit" name="submit" id="button" class="btn btn-primary btn-lg btn-block login-button">Valider</a>
+                        </div>
+
+                        <div class="form-group ">
+							<a href="inscription.php" target="_blank"  id="button" class="btn btn-primary btn-lg btn-block login-button">s'inscrire</a>
+						</div>
+						
+                        			
+					</form>
+				</div>
+			</div>
+        </div>
+      
+      ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" tpype="submit" >valider</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
         </li>
       </ul>
     </div>
@@ -132,207 +206,37 @@
 
         </div>
 
-        <div class="col-md-4">
-            <div class="row">
-                <div class="col-md-10 logo">
-                    <a href="#" class="fa fa-android" style="
-                    
-                    padding: 20px;
-                    font-size: 30px;
-                    width: 75px;
-                    text-align: center;
-                    text-decoration: none;
-                    border-radius: 100%;
-                   
-                ;"  ></a>
-                </div>
+        <?php
+        include("connexion.php");
 
-            </div>
-            <div class="row">
-                <div class="col-md-10 titre">
-                  <h4>IOS developpement</h4>                   
-                </div>
+         // La requête sql pour récupérer les cours de la page actuelle.
+         $mor=$con->query("SELECT * FROM cours where publier=1");
+               
+              
+                // On affiche le resultat
+                while ($donnees = $mor->fetch())
+                {
 
-            </div>
+                    //On affiche les données dans le tableau
 
-            <div class="row">
-                <div class="col-md-10 text">
-                    <p>
-                        Lorem Ipsum est simplement un faux texte de l'industrie de l'impression et de la composition.
-                         Lorem Ipsum a été le texte factice standard de l'industrie depuis les années 1500, quand une   
-                    </p>
-                </div>
+                /*    echo "<td><img src ='./image/$donnees[photo]' height=10 /></td> ";
+                    echo "<td> $donnees[titre] </td> ";
+                    echo "<td> $donnees[description] </td>";*/
+                  
+                echo "<div class='col-md-4'>";
+                echo "<div class='row>";
+                echo "<div class='col-md-10 logo'>";
+                echo "<a href='#' class='photo'><img src ='./image/$donnees[photo]' height=20 text-align:center /></a></div>";
+                echo "<div class='row'> <div class='col-md-10 titre'><h4>$donnees[titre]</h4> </div> </div> ";
+                echo "<div class='row'><div class='col-md-10 text'>";
+                echo " <p> $donnees[description] </p></div> </div></div>";
 
-            </div>
+                }
+                $mor->closeCursor(); ?>
+                 
 
-        </div>
-
-        <div class="col-md-4">
-            <div class="row">
-                <div class="col-md-10 logo">
-                    <a href="#" class="fa fa-facebook" style="
-                    
-                        padding: 20px;
-                        font-size: 30px;
-                        width: 75px;
-                        text-align: center;
-                        text-decoration: none;
-                        border-radius: 100%;
-                       
-                    ;"  ></a>
-                </div>
-
-            </div>
-            <div class="row">
-                <div class="col-md-10 titre">
-                  <h4>Android</h4>                   
-                </div><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-  Launch demo modal
-</button>
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-            </div>
-
-            <div class="row">
-                <div class="col-md-10 text">
-                    <p>
-                        Lorem Ipsum est simplement un faux texte de l'industrie de l'impression et de la composition.
-                         Lorem Ipsum a été le texte factice standard de l'industrie depuis les années 1500, quand une   
-                    </p>
-                </div>
-
-            </div>
-
-        </div>
-
-        <div class="col-md-4">
-            <div class="row">
-                <div class="col-md-10 logo">
-                    <a href="#" class="fa fa-skype" style="
-                    
-                    padding: 20px;
-                    font-size: 30px;
-                    width: 75px;
-                    text-align: center;
-                    text-decoration: none;
-                    border-radius: 100%;
-                   
-                ;" ></a>
-                </div>
-
-            </div>
-            <div class="row">
-                <div class="col-md-10 titre">
-                  <h4>skype</h4>                   
-                </div>
-
-            </div>
-
-            <div class="row">
-                <div class="col-md-10 text">
-                    <p>
-                        Lorem Ipsum est simplement un faux texte de l'industrie de l'impression et de la composition.
-                         Lorem Ipsum a été le texte factice standard de l'industrie depuis les années 1500, quand une   
-                    </p>
-                </div>
-
-            </div>
-
-        </div>
-
-
-        <div class="col-md-4">
-            <div class="row">
-                <div class="col-md-10 logo">
-                    <a href="#" class="fa fa-youtube" style="
-                    
-                    padding: 20px;
-                    font-size: 30px;
-                    width: 75px;
-                    text-align: center;
-                    text-decoration: none;
-                    border-radius: 100%;
-                   
-                ;"   ></a>
-                </div>
-
-            </div>
-            <div class="row">
-                <div class="col-md-10 titre">
-                  <h4>Snapchat</h4>                   
-                </div>
-
-            </div>
-
-            <div class="row">
-                <div class="col-md-10 text">
-                    <p>
-                        Lorem Ipsum est simplement un faux texte de l'industrie de l'impression et de la composition.
-                         Lorem Ipsum a été le texte factice standard de l'industrie depuis les années 1500, quand une   
-                    </p>
-                </div>
-
-            </div>
-
-        </div>
-        <div class="col-md-4">
-            <div class="row">
-                <div class="col-md-10 logo">
-                    <a href="#" class="fa fa-vimeo"  style="
-                    
-                    padding: 20px;
-                    font-size: 30px;
-                    width: 75px;
-                    text-align: center;
-                    text-decoration: none;
-                    border-radius: 100%;
-                   
-                ;"  ></a>
-                </div>
-
-            </div>
-            <div class="row">
-                <div class="col-md-10 titre">
-                  <h4>vimeo</h4>                   
-                </div>
-
-            </div>
-
-            <div class="row">
-                <div class="col-md-10 text">
-                    <p>
-                        Lorem Ipsum est simplement un faux texte de l'industrie de l'impression et de la composition.
-                         Lorem Ipsum a été le texte factice standard de l'industrie depuis les années 1500, quand une   
-                    </p>
-                </div>
-
-            </div>
-
-        </div>
        
-    </div>
-
-</div>
+       
 
 </section>
 
@@ -344,28 +248,3 @@
 
 </html>
 
-
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-  <!--Launch demo modal-->
-</button>
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>

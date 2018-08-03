@@ -1,4 +1,4 @@
-<!--DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -98,7 +98,7 @@
 
 
                 </thead>
-                <tbody--!> 
+                <tbody> 
 
 
 
@@ -116,11 +116,11 @@
 try {
 
     // sql effacer un enregistrement
-    $sqli = "UPDATE cours SET publier = 1 WHERE id='$id'";
+    $sqli = "UPDATE cours SET publier = 0 WHERE id='$id'";
 
     //executer la requete 
     $con->exec($sqli);
-    echo "cours publié";
+    echo "cours depublié";
     header("cours_panel.php");
     }
 catch(PDOException $e)
@@ -133,7 +133,6 @@ catch(PDOException $e)
 ?> 
 
   <?php
-  /*
                        
 
                        include("connexion.php");
@@ -142,7 +141,7 @@ catch(PDOException $e)
 
 
        // La requête sql pour récupérer les cours de la page actuelle.
-           $mor=$con->query("SELECT * FROM cours where publier=1");
+           $mor=$con->query("SELECT * FROM cours where publier=0");
           
          
            // On affiche le resultat
@@ -165,6 +164,6 @@ catch(PDOException $e)
            }
            $mor->closeCursor();
             
-*/
+
             ?>
 
